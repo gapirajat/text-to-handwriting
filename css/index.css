@@ -242,6 +242,7 @@ body.dark .github-corner {
 .margined .top-margin {
   height: 50px;
   border-bottom: 2px solid pink;
+  border-bottom: 1px solid;
   width: 100%;
   display: block;
   overflow-y: auto;
@@ -256,6 +257,26 @@ body.dark .github-corner {
   overflow-x: hidden;
   position: absolute;
   left: 0;
+}
+
+  height: 48px;
+  border-bottom: 1px solid;
+  width: 100%;
+  display: block;
+  overflow-y: auto;
+}
+
+#customl {
+  width: 48px;
+  height: calc(100%);
+  display: inline-block;
+  border-right: 1px solid;
+  top: 0px;
+  padding-top: 50px;
+  overflow-x: hidden;
+  position: absolute;
+  left: 0;
+
 }
 
 .overlay {
