@@ -241,7 +241,6 @@ body.dark .github-corner {
 
 .margined .top-margin {
   height: 50px;
-  border-bottom: 2px solid pink;
   border-bottom: 1px solid;
   width: 100%;
   display: block;
@@ -252,6 +251,7 @@ body.dark .github-corner {
   width: 50px;
   height: calc(100%);
   display: inline-block;
+  border-right: 1px solid;
   top: 0px;
   padding-top: 50px;
   overflow-x: hidden;
@@ -259,6 +259,7 @@ body.dark .github-corner {
   left: 0;
 }
 
+#customt {
   height: 48px;
   border-bottom: 1px solid;
   width: 100%;
